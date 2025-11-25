@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.example.Main",
+            "projectName": "Proyecto_TA_Cliente"
+        },
+        {
+            "type": "java",
+            "name": "PruebaAutenticacion",
+            "request": "launch",
+            "mainClass": "pruebas.PruebaAutenticacion",
+            "projectName": "HawkEye"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "proyecto.hawkeye.Main",
+            "projectName": "HawkEye"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProyectoTaApplication<Proyecto_TA>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.example.proyecto_ta.ProyectoTaApplication",
+            "projectName": "Proyecto_TA",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=59048 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=Proyecto_TA"
+        }
+    ]
+}
